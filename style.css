@@ -4,18 +4,25 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: sans-serif;
+    height: 100vh;
 }
 
 .intro {
-    height: 100vh;
+    height: 2000px;
 }
 
 .intro video {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    position: fixed;
+    z-index: -1;
 }
 
 img {
